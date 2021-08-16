@@ -433,3 +433,22 @@ body {
 .divLienFoot {
     height: 30px;
 }
+/* RESPONSIVE */ 
+
+@media screen and (max-width: 1295px){
+    .sizeLien12 {
+        margin-left: 35%;
+    }
+    .cubeDetailHebergement{
+        min-height: 150px;
+    }
+    .sizeHebergements{
+        min-height: auto;
+        padding: 20px;
+    }
+    .sizePopulaires{
+        min-height: auto;
+        padding: 20px;
+    }
+    
+}
