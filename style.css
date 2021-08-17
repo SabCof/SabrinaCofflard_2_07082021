@@ -1,5 +1,5 @@
 /* GENERAL */
-
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap");
 html,
 body {
     font-family: Raleway;
@@ -64,36 +64,35 @@ body {
 }
 
 /* NAV */
-
 .sizeNav {
     height: 100px;
-}
-.sizeLiens {
+  }
+  .sizeLiens {
     width: 100%;
-}
-.sizeLien12 {
+  }
+  .sizeLien12 {
     margin-left: 60%;
-}
-.sizeLien {
+  }
+  .sizeLien {
     width: 140px;
     height: 99px;
-}
-.couleurLien2 {
+  }
+  .colorLien2 {
     color: black;
-}
-.bordureNav {
+  }
+  .bordureNav {
     border-top: 1px solid transparent;
-}
-.bordureNav:hover {
+  }
+  .bordureNav:hover {
     border-top: 1px solid #0065fc;
     cursor: pointer;
-}
-.bordureNav:hover > a {
+  }
+  .bordureNav:hover > a {
     color: #0065fc;
-}
-.logo {
+  }
+  .marglogo {
     margin-bottom: 7px;
-}
+  }
 /* HEADER */
 
 .bordureSearch {
@@ -439,7 +438,7 @@ body {
     text-decoration: underline;
   }
   
-  @media (max-width: 750px) {
+  @media (max-width: 750px){
     .footerColumnwrapper {
       flex-direction: column;
       padding: 2rem;
@@ -461,35 +460,51 @@ body {
     .footerColumnwrapperColumnLink:last-child {
       margin-bottom: 0;
     }
-  }  
+}
+/* responsive */
 
-/* RESPONSIVE */ 
-/*--------------------------------------------------------Code pour format de tablette--------------------------------------------------------*/
-
-@media(min-width: 768px) and (max-width: 1388px)
-{
+@media screen and (max-width: 1295px) {
     .sizeLien12 {
-        margin-left: 35%;
+      margin-left: 35%;
     }
-    .cubeDetailHebergement{
-        min-height: 150px;
+    .cubeDetailsHebergements {
+      min-height: 150px;
     }
-    .sizeHebergements{
-        min-height: auto;
-        padding: 20px;
+    .sizeHebergements {
+      min-height: auto;
+      padding: 20px;
     }
-    .sizePopulaires{
-        min-height: auto;
-        padding: 20px;
-    }/* Entrez ici vos propriÃ©tÃ©s CSS lorsque l'utilisateur est sur tablette */	
-}
-
-
-/*-------------------------------------------------------Code pour format de smartphone-------------------------------------------------------*/
-
-@media(max-width: 767px)
-{
-/* Entrez ici vos propriÃ©tÃ©s CSS lorsque l'utilisateur est sur smartphone */
-    
-    
-}
+    .sizePopulaires {
+      min-height: auto;
+      padding: 20px;
+    }
+    .tabletteSizeTitrePop {
+      margin-top: 0;
+    }
+  }
+  @media screen and (max-width: 990px) {
+    .mobileFiltreWrap {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    .filtreTexteIcons {
+      margin-bottom: 20px;
+    }
+    #hebergements {
+      flex-direction: column-reverse;
+      width: 100%;
+    }
+    .blocPopulaires {
+      flex: none;
+      width: 90%;
+      margin-left: 0;
+      padding: 5%;
+    }
+    .blocHebergements {
+      flex: none;
+      width: 90%;
+      margin-right: 0;
+      margin-top: 50px;
+      padding: 5%;
+    }
+  }
