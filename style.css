@@ -2,6 +2,7 @@
 html,
 body {
     font-family: Raleway;
+   margin: 5px;
 }
 .flexCentre {
     display:flex;
