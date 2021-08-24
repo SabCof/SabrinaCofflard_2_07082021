@@ -1,9 +1,10 @@
 /* GENERAL */
 html,
 body {
-    max-width: 100%;
+    
     font-family: Raleway;
-   margin: 20px;
+  
+  
 }
 .flexCentre {
     display:flex;
@@ -18,7 +19,7 @@ body {
 .flexBetween {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
 }
 .flexColumnCentre {
     display: flex;
@@ -36,6 +37,7 @@ body {
     flex-direction: column;
     justify-content: space-between;
 }
+
 .decoration {
     text-decoration: none;
 }
@@ -70,10 +72,10 @@ body {
   }
   .sizeLiens {
     width: 100%;
-
+    margin:25px
   }
   .sizeLien12 {
-    margin-left: 60%;
+   margin-left: 70%;
   }
   .sizeLien {
     width: 140px;
@@ -96,7 +98,9 @@ body {
     margin-bottom: 7px;
   }
 /* HEADER */
-
+.section{
+    margin:25px
+}
 .desktopNone {
     display: none;
 }
@@ -135,7 +139,7 @@ body {
 
  .margFiltre {
      margin-top: 50px;
-     margin-bottom: 40px;
+     margin-bottom: 20px;
  }
  .filtre {
      display: flex;
@@ -161,7 +165,6 @@ body {
  }
  .filtreText {
      height: 50px;
-     margin-left: 20px;
      padding-left: 20px;
      padding-right: 20px;
      border-radius: 0 25px 25px 0;
@@ -180,13 +183,15 @@ body {
  .info {
      display: flex;
      align-items: center;
+     margin-bottom: 15px;
  }
  .parentIcon {
      width: 20px;
      height: 20px;
      border: 2px solid #f2f2f2;
-     border-radius: 25px;
+     border-radius: 15px;
      margin-right: 5px;
+     
  }
 
  /* HEBERGEMENTS */
@@ -419,41 +424,44 @@ body {
     border-radius: 15px 15px 0 0;
 }
 /* FOOTER */
-
 .footer {
-    background-color: #F2F2F2;
+  
+    background-color: #f2f2f2;
     width: 100%;
+    
   }
-  .footerColumnwrapper {
-    display: flex;
-    max-width: 100%;
-    width: 1440px;
-    margin: auto;
-    padding: 0 2rem;
-    box-sizing: border-box;
+
+  .blocAProp{
+   margin-left: 20px;
+   
+    padding-bottom: 20px;
+   
   }
-  .footerColumnwrapperColumn {
-    width: 30%;
-    padding: 2rem 2rem;
+  .blocNosHeber {
+    
+    margin-left: 0;
+    padding-bottom: 20px;
   }
-  .footerColumnwrapperColumnLink {
-    display: block;
-    margin: 1rem 0;
+  .blocAssist {
+    margin-right: 15%;
+    margin-left: 0
+  }
+  .lienFoot {
     color: black;
   }
-  .footerColumnwrapperColumnLink:hover {
-    text-decoration: underline;
+  .divLienFoot {
+    height: 30px;
   }
   
   @media (max-width: 750px){
     .footerColumnwrapper {
       flex-direction: column;
-      padding: 2rem;
+      padding: 20px;
     }
     .footerColumnwrapperColumn {
       width: 100%;
-      padding: 0;
-      margin: 1rem 0;
+      padding: 0px;
+      
     }
     .footerColumnwrapperColumn:first-child {
       margin-top: 0;
@@ -470,7 +478,7 @@ body {
 }
 /* responsive */
 
-@media screen and (min-width:800px)and (max-width: 1280px) {
+@media screen and (max-width:1440px) {
     .sizeLien12 {
       margin-left: 35%;
     }
@@ -520,7 +528,7 @@ body {
          width: 90%;
      }
      .sizeLien12 {
-         margin-left: 20%;
+         margin-left: 20px;
      }
      .blocHebergements{ 
          height:auto;
@@ -543,7 +551,8 @@ body {
      }
      .blocAct{
          flex-direction: column;
-         height: auto;
+         height: 100%;
+         margin-left: 20px;
      }
      .cubeAct{
          width: 100%;
@@ -558,6 +567,7 @@ body {
      }
      .imgAct1,.imgAct2,.imgAct3,.imgAct4,.imgAct5,.imgAct6 {
          height: 200px;
+         width: 100%;
      }
  }
  @media screen and (max-width: 600px){
@@ -626,6 +636,11 @@ body {
      .blocAct {
          padding: 5%;
          width: 90%;
+     }
+     .blocAProp{
+        margin-left: 0px;
+        padding-top: 20px;
+        padding-bottom: 20px;
      }
      html, body {
          margin: 0;

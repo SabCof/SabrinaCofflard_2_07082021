@@ -39,9 +39,9 @@
  </nav>
  <!-- HEADER -->
      <header>
-        <section>
+        <section class="section">
             <div class="mobileTitrePara">
-                <h1 class="texteGras">
+                <h1 class="texteGras titreAlign">
                     Trouvez votre hébergement pour des vacances de rêve</h1>
                 <p>En plein centre ville ou en pleine nature </p>
             </div>
@@ -60,7 +60,7 @@
             </div>
 <!-- FILTRES -->
             <div class="mobileFiltreWrap filtre margFiltre">
-                <div class="margFiltreTitre"><h3>Filtres</h3></div>
+                <div class="margFiltreTitre"><h3 class="titreAlign">Filtres</h3></div>
                 <!-- div mobile -->
                 <!-- div1 -->
                 <div class="flexAround">
@@ -68,13 +68,13 @@
                     <div class="filtreIcons flexCentre">
                         <i class="fas fa-money-bill-wave fa-lg "></i>
                     </div>
-                    <div class="filtreTexte flexCentre">Economique</div>
+                    <div class="filtreText flexCentre">Economique</div>
                 </div>
                 <div class="filtreTextIcons flexBetween">
                     <div class="filtreIcons flexCentre">
                         <i class="fas fa-child fa-lg"></i>
                     </div>
-                    <div class="filtreTexte flexCentre">Familial</div>
+                    <div class="filtreText flexCentre">Familial</div>
                 </div>
             </div>
             <!-- div2 -->
@@ -83,13 +83,13 @@
                     <div class="filtreIcons flexCentre">
                         <i class="fas fa-heart fa-lg"></i>
                     </div>
-                    <div class="filtreTexte flexCentre">Romantique</div>
+                    <div class="filtreText flexCentre">Romantique</div>
                 </div>
                 <div class="filtreTextIcons flexBetween">
                     <div class="filtreIcons flexCentre">
                         <i class="fas fa-dog fa-lg"></i>
                     </div>
-                    <div class="filtreTexte flexCentre">Animaux autorisés</div>
+                    <div class="filtreText flexCentre">Animaux autorisés</div>
                 </div>
             </div>
             </div>
@@ -103,9 +103,9 @@
         </section> 
      </header>
 <!-- HEBERGEMENTS -->
-     <section id="Hebergements" class="flexAround">
+     <section id="Hebergements" class="flexAround section">
          <div class="flexColumnAround sizeHebergements backGris blocHebergements">
-           <h2>Hébergements à Marseille</h2> 
+           <h2 >Hébergements à Marseille</h2> 
            <div class="bloc1 flexBetween">
                <div class="cubeHebergements flexColumnAround">
                    <div class="imgHebergement1"></div>
@@ -252,8 +252,8 @@
         </div>
      </section>
 <!-- ACTIVITES -->
-     <section id="Activites" class="Activites">
-         <h2 class="mobileTitrePara">Activités à Marseille</h2>
+     <section id="Activites" class="Activites section">
+         <h2 class=" titreAlign mobileTitrePara">Activités à Marseille</h2>
          <div class="blocAct flexBetween">
              <div class="cubeAct flexColumnCentre">
                  <div class="imgAct1"> </div>
@@ -293,25 +293,49 @@
          </div>
      </section>
 <!-- FOOTER -->
-     <footer class="footer">
-        <div class="footerColumnwrapper">
-          <div class="footerColumnwrapperColumn">
-            <h3 class="footerColumnwrapperColumnTitle">A propos</h3>
-            <a href="#" class="decoration footerColumnwrapperColumnLink">Fonctionnement du site</a>
-            <a href="#" class="decoration footerColumnwrapperColumnLink">Conditions générales de vente</a>
-            <a href="#" class="decoration footerColumnwrapperColumnLink">Données et confidentialités</a>
+     <footer class="footer footerColumnwrapperColumn">
+        <div class=" backGris footerColumnwrapper flexBetween">
+            <div class="blocAProp">
+              <h3>A propos</h3>
+              <div class="divLienFoot">
+                <a href="#" class="decoration lienFoot"
+                  >Fonctionnement du site</a
+                >
+              </div>
+              <div class="divLienFoot">
+                <a href="#" class="decoration lienFoot"
+                  >Conditions générales de vente</a
+                >
+              </div>
+              <div class="divLienFoot">
+                <a href="#" class="decoration lienFoot"
+                  >Données et confidentialité</a
+                >
+              </div>
+            </div>
+            
+            <div class="blocNosHeber">
+              <h3>Nos hébergements</h3>
+              <div class="divLienFoot">
+                <a href="#" class="decoration lienFoot">Charte qualité</a>
+              </div>
+              <div class="divLienFoot">
+                <a href="#" class="decoration lienFoot"
+                  >Soumettre votre hôtel</a
+                >
+              </div>
+            </div>
+            <div class="blocAssist tailleBlocFoot">
+              <h3>Assistance</h3>
+              <div class="divLienFoot">
+                <a href="#" class="decoration lienFoot">Centre d'aide</a>
+              </div>
+              <div class="divLienFoot">
+                <a href="#" class="decoration lienFoot">Nous contacter</a>
+              </div>
+            </div>
+            
           </div>
-          <div class="footerColumnwrapperColumn">
-            <h3 class="footerColumnwrapperColumnTitle">Nos hébergement</h3>
-            <a href="#" class="decoration footerColumnwrapperColumnLink">Charte qualité</a>
-            <a href="#" class="decoration footerColumnwrapperColumnLink">Soumettre votre hotel</a>
-          </div>
-          <div class="footerColumnwrapperColumn">
-            <h3 class="footerColumnwrapperColumnTitle">Assitance</h3>
-            <a href="#" class="decoration footerColumnwrapperColumnLink">Centre d'aide</a>
-            <a href="#" class="decoration footerColumnwrapperColumnLink">Nous contacter</a>
-          </div>
-        </div>
       </footer>
     
 </body>
