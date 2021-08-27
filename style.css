@@ -3,7 +3,7 @@ html,
 body {
     
     font-family: Raleway;
-  
+  max-width: 1440px;
   
 }
 .flexCentre {
