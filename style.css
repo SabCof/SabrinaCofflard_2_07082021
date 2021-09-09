@@ -1,10 +1,11 @@
 /* GENERAL */
+
 html,
 body {
     
     font-family: Raleway;
-  max-width: 95%;
-    margin-left: 20px;
+  max-width: 100%;
+    margin-left: 10px;
 }
 .flexCentre {
     display:flex;
@@ -25,7 +26,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: center; 
 }
 .flexColumnAround {
     display: flex;
@@ -478,9 +479,10 @@ body {
 }
 /* responsive */
 
-@media screen and (max-width:1440px) {
+@media screen and (max-width:1024px) {
     .sizeLien12 {
-      margin-left: 35%;
+      margin-left: 43%;
+      
     }
     .cubeDetailsHebergements {
       min-height: 150px;
@@ -528,7 +530,7 @@ body {
          width: 90%;
      }
      .sizeLien12 {
-         margin-left: 20px;
+         margin-left:30%;
      }
      .blocHebergements{ 
          height:auto;
