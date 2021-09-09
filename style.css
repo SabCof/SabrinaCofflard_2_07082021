@@ -6,6 +6,7 @@ body {
     font-family: Raleway;
   max-width: 100%;
     margin-left: 10px;
+    margin-right: 5px;
 }
 .flexCentre {
     display:flex;
@@ -76,11 +77,12 @@ body {
     margin:25px
   }
   .sizeLien12 {
-   margin-left: 80%;
+   margin-left:75%;
   }
   .sizeLien {
     width: 140px;
     height: 69px;
+ 
   }
   .couleurLien2 {
     color: black;
