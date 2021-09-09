@@ -3,8 +3,8 @@ html,
 body {
     
     font-family: Raleway;
-  max-width: 1440px;
-  
+  max-width: 95%;
+    margin-left: 20px;
 }
 .flexCentre {
     display:flex;
@@ -453,7 +453,7 @@ body {
     height: 30px;
   }
   
-  @media (max-width: 750px){
+  @media screen and (max-width: 750px){
     .footerColumnwrapper {
       flex-direction: column;
       padding: 20px;
