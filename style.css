@@ -1,17 +1,23 @@
 /* GENERAL */
 
-html,
+html {
+   display: block; 
+}
 body {
     
     font-family: Raleway;
-  max-width: 100%;
-    margin-left: 10px;
-    margin-right: 5px;
+ margin: 0;
+  
 }
 .flexCentre {
     display:flex;
     justify-content: center;
     align-items: center;
+}
+.flexEnd {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
 }
 .flexAround {
     display: flex;
@@ -21,7 +27,7 @@ body {
 .flexBetween {
     display: flex;
     justify-content:space-between;
-    align-items: flex-start;
+    align-items:center;
 }
 .flexColumnCentre {
     display: flex;
@@ -76,9 +82,9 @@ body {
    
     margin:25px
   }
-  .sizeLien12 {
-   margin-left:75%;
-  }
+ .sizeLien12{
+     flex: 2;
+ }
   .sizeLien {
     width: 140px;
     height: 69px;
@@ -99,6 +105,13 @@ body {
   }
   .marglogo {
     margin-bottom: 7px;
+    flex: 1;
+  }
+  .main {
+    max-width: 1440px;
+    margin: auto;
+    padding: 0 32px;
+    box-sizing: border-box;
   }
 /* HEADER */
 .section{
@@ -428,42 +441,33 @@ body {
 }
 /* FOOTER */
 .footer {
-  
-    background-color: #f2f2f2;
-    max-width: 100%; 
-    
+    background-color: #F2F2F2;
+    width: 100%;
   }
-
-  .blocAProp{
-   margin-left: 20px;
-   
-    padding-bottom: 20px;
-   
+  .footerColumnwrapper {
+    display: flex;
+    max-width: 100%;
+    width: 1440px;
+    margin: auto;
+    padding: 0 32px;
+    box-sizing: border-box;
   }
-  .blocNosHeber {
-    
-    margin-left: 0;
-    padding-bottom: 20px;
+  .footerColumnwrapperColumn {
+    width: 30%;
+    padding:32px 32px;
   }
-  .blocAssist {
-    margin-right: 15%;
-    margin-left: 0
+  .footerColumnwrapperColumnLink {
+    display: block;
+    margin: 16px 0;
   }
-  .lienFoot {
-    color: black;
+  .footerColumnwrapperColumnLink:hover {
+    text-decoration: underline;
   }
-  .divLienFoot {
-    height: 30px;
-  }
-  
   
 /* responsive */
 
 @media screen and (max-width:1024px) {
-    .sizeLien12 {
-      margin-left: 43%;
-      
-    }
+   
     .cubeDetailsHebergements {
       min-height: 150px;
     }
@@ -486,6 +490,7 @@ body {
       }
       .filtreTexteIcons {
         margin-bottom: 20px;
+        margin-top: 20px;
       }
       #Hebergements {
         flex-direction: column-reverse;
