@@ -452,10 +452,12 @@
   .footerColumnwrapper {
     display:flex;
     align-items:stretch;
+
     width:  100%;
 
      }
   .footerColumnwrapperColumn {
+
     padding: 20px;
   }
   .footerColumnwrapperColumnLink {
@@ -466,6 +468,7 @@
     text-decoration:underline;
   }
  
+
 /* responsive */
 
 @media screen and (max-width:1024px) {
