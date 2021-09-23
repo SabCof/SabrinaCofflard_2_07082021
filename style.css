@@ -1,11 +1,13 @@
 /* GENERAL */
 
+
  html, body {
     width: 100%;
     
     font-family: Raleway;
  margin: 0;
   
+
 }
 .flexCentre {
     display:flex;
@@ -80,9 +82,11 @@
    
     margin:25px
   }
+
  .sizeLien12{
      flex: 2;
  }
+
   .sizeLien {
     width: 140px;
     height: 69px;
@@ -466,7 +470,7 @@
 /* responsive */
 
 @media screen and (max-width:1024px) {
-   
+
     .cubeDetailsHebergements {
       min-height: 150px;
     }
@@ -519,7 +523,9 @@
     }
      .sizeLien12 {
          margin-left:30%;
+
          flex: none;
+
      }
      .sizeLienMobile {
         width: 50%;
