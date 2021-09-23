@@ -55,6 +55,7 @@
 .texteGras {
     font-weight: bolder;
 }
+
 .couleurB {
     color: #0065fc;
 }
@@ -449,24 +450,20 @@
   .footerColumnwrapper {
     display:flex;
     align-items:stretch;
-    
     width:  100%;
 
      }
   .footerColumnwrapperColumn {
-   /* width: 750px;*/
     padding: 20px;
-  
-    
   }
   .footerColumnwrapperColumnLink {
     display: block;
     margin: 16px 0;
   }
   .footerColumnwrapperColumnLink:hover {
-    text-decoration: underline;
+    text-decoration:underline;
   }
-  
+ 
 /* responsive */
 
 @media screen and (max-width:1024px) {
