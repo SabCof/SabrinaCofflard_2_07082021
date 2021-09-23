@@ -3,12 +3,11 @@
 
  html, body {
     width: 100%;
-    
     font-family: Raleway;
- margin: 0;
-  
-
+     margin: 0;
+     padding: 0;
 }
+
 .flexCentre {
     display:flex;
     justify-content: center;
@@ -26,6 +25,7 @@
 }
 .flexBetween {
     display: flex;
+    flex-direction: row;
     justify-content:space-between;
     align-items:center;
 }
@@ -115,14 +115,14 @@
     flex: 1;
   }
   .main {
-    max-width: 1440px;
-    margin: auto;
-    padding: 0 32px;
+    max-width: 2000px;
+    margin: 0 ;
+    padding: 0 ;
     box-sizing: border-box;
   }
 /* HEADER */
 .section{
-    margin:25px
+    margin: 25px
 }
 .desktopNone {
     display: none;
@@ -161,7 +161,7 @@
 /* FILTRES */
 
  .margFiltre {
-     margin-top: 50px;
+     margin-top: 30px;
      margin-bottom: 20px;
  }
  .filtre {
@@ -176,6 +176,7 @@
      height: 50px;
      border-radius: 30px;
      margin-right: 20px;
+     margin-top: 5px;
      display:flex;
     
  }
@@ -451,13 +452,26 @@
     background-color: #F2F2F2;
     width: 100%;
   }
+ 
   .footerColumnwrapper {
     display:flex;
-    align-items:stretch;
-
+    align-items:flex-start;
+    align-content: stretch;
     width:  100%;
 
      }
+  .box1 {
+      flex: 4;
+  }
+  .box2 {
+      flex: 4;
+  }
+  .box3 {
+      flex: 3;
+  }
+  .box4 {
+      flex:1;
+  }
   .footerColumnwrapperColumn {
 
     padding: 20px;
@@ -596,7 +610,12 @@
       flex-direction: column;
       
     }
-   
+    .tabletteSizeTitrePop {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-weight: bolder;
+        font-size:x-large;
+      }
       
       
     .blocAProp{
@@ -669,6 +688,7 @@
      .info {
          padding-left: 5%;
      }
+     
      .blocPopu {
          border-radius: 0;
      }
