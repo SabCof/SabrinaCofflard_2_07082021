@@ -491,6 +491,9 @@
         margin-bottom: 20px;
         margin-top: 20px;
       }
+      .section{
+        margin:0px
+    }
       #Hebergements {
         flex-direction: column-reverse;
         width: 100%;
@@ -499,7 +502,7 @@
         flex: none;
         width: 90%;
         margin-left: 0;
-        padding: 5%;
+        padding: 5px;
       }
       .blocHebergements {
         flex: none;
@@ -550,14 +553,14 @@
          margin-bottom: 50px;
      }
      .imgAct1,.imgAct2,.imgAct3,.imgAct4,.imgAct5,.imgAct6 {
-         height: 200px;
-         width: 100%;
+         height: 150px;
+         width: 90%;
              }
  }
  @media screen and (max-width: 750px){
     .footerColumnwrapper {
       flex-direction: column;
-      padding: 20px;
+      
     }
    
       
@@ -597,6 +600,7 @@
          width: 100%;
          flex-direction: row;
          flex-wrap: wrap;
+         margin: 0px;
      }
      .sizeLienMobile:hover {
          border-top: 0;
@@ -641,10 +645,7 @@
      .mobileTitrePara {
          padding-left: 5%;
      }
-     .blocAct {
-         padding: 5%;
-        
-     }
+     
      .blocAProp{
         margin-left: 0px;
         padding-top: 20px;
