@@ -536,7 +536,8 @@
  }
  @media screen and (max-width: 750px){
     .section{
-        margin:0px
+        margin:0px;
+      
     }
      .sizeLien12 {
          margin-left:30%;
@@ -586,14 +587,16 @@
      .blocAct{
          flex-direction: column;
          height: 100%;
+         width: 98%;
         
      }
      .cubeAct{
-         width: 100%;
+         width: 95%;
          margin-bottom: 50px;
+         
      }
      .blocAct23{
-         width: 100%;
+         width: 95%;
          height: auto;
      }
      .cubeAct23{
