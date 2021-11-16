@@ -313,9 +313,11 @@
     padding-right: 20px;
 }
 .blocPopu12 {
+    display: inline-flex;
     margin-bottom: 22px;
 }
 .cubePopu {
+    box-sizing: border-box;
     background-color: white;
     height: auto;
     padding:  1% 0 1% 1%;
@@ -508,7 +510,9 @@
     
     .mobileFiltreWrap {
         flex-direction: column;
-        align-items: flex-start;
+        align-items: baseline;
+        padding-left: 0px;
+        margin-left: 0px;
       }
       .filtreTexteIcons {
         margin-bottom: 20px;
@@ -684,8 +688,11 @@
          padding-left: 5%;
      }
      .filtreText {
-         padding-left: 10px;
-         padding-right: 10px;
+         padding-left: 7px;
+         padding-right: 7px;
+     }
+     .filtreTextIcons {
+         margin-right: 10px;
      }
      .info {
          padding-left: 5%;
@@ -700,6 +707,7 @@
      }
      .mobileTitrePara {
          padding-left: 5%;
+         
      }
      
      .blocAProp{
@@ -711,4 +719,9 @@
          margin: 0;
          padding: 0;
      }
- }
+     h2 {
+         font-size: 22px;
+         
+         font-weight:900;
+     }
+    }
