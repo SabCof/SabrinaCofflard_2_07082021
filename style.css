@@ -14,9 +14,9 @@
     align-items: center;
 }
 .flexEnd {
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
+    display:flex;
+    justify-content:flex-end;
+    align-items:flex-end;
 }
 .flexAround {
     display: flex;
@@ -328,6 +328,7 @@
     transform: scale(1.05);
 }
 .cubeDetailsPopu {
+    line-height: 1;
     width: 60%;
     padding-left: 5%;
 }
