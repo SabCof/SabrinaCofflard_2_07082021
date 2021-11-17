@@ -2,11 +2,15 @@
 
 
  html, body {
-    width: 100%;
+     display: block;
+    width:100%;
     font-family: Raleway;
-     margin: 0;
+     margin-left:auto;
+     margin-right: auto;
      padding: 0;
+
 }
+
 
 .flexCentre {
     display:flex;
