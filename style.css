@@ -124,7 +124,7 @@
     max-width: 2000px;
     margin: 0 ;
     padding: 0 ;
-    box-sizing: border-box;
+    
   }
 /* HEADER */
 .section{
@@ -547,6 +547,9 @@
       }
  }
  @media screen and (max-width: 750px){
+    .main {
+        width: 100%;
+    }
     .section{
         margin:0px;
       
@@ -599,16 +602,16 @@
      .blocAct{
          flex-direction: column;
          height: 100%;
-         width: 98%;
+        
         
      }
      .cubeAct{
-         width: 95%;
+         width:95%;
          margin-bottom: 50px;
          
      }
      .blocAct23{
-         width: 95%;
+         width: 85%;
          height: auto;
      }
      .cubeAct23{
@@ -622,7 +625,7 @@
  @media screen and (max-width: 750px){
     .footerColumnwrapper {
       flex-direction: column;
-      
+      width: 100%;
     }
     .tabletteSizeTitrePop {
         margin-top: 20px;
@@ -692,6 +695,7 @@
      .mobileNone {
         display: none; 
      }
+     
      .margFiltre {
          padding-left: 5%;
      }
@@ -700,7 +704,7 @@
          padding-right: 7px;
      }
      .filtreTextIcons {
-         margin-right: 10px;
+         margin-right: 7px;
      }
      .info {
          padding-left: 5%;
@@ -708,10 +712,13 @@
      
      .blocPopu {
          border-radius: 0;
+         width: 85%;
+
      }
      .blocHebergements {
          background-color: white;
-
+         margin: 0;
+        width: 85%;
      }
      .mobileTitrePara {
          padding-left: 5%;
@@ -722,6 +729,7 @@
         margin-left: 0px;
         padding-top: 20px;
         padding-bottom: 20px;
+
      }
      html, body {
          margin: 0;
